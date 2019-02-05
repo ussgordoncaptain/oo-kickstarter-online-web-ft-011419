@@ -8,4 +8,5 @@ class Backer
     project.backers = self 
   end
   attr_reader :name 
+  attr_accessor :backed_projects
 end
